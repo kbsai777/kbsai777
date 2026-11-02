@@ -9,6 +9,9 @@ I build backend systems with **Java, Spring Boot, Kafka and Camunda**, and I bui
 
 ## 🤖 AI Agents & Automation
 
+### [agent-eval-lite](https://github.com/kbsai777/agent-eval-lite) — latest release
+Deterministic evals for AI agents with **no LLM in the test loop**: a scripted model drives the agent through written scenarios while the runner asserts on tool calls, arguments, and responses. Zero dependencies, no API key, one command to run. **v0.1.0 is out now.**
+
 ### [agno-agents-demo](https://github.com/kbsai777/agno-agents-demo)
 A level-by-level build-up of agent patterns with the [Agno](https://www.agno.com) framework — Python, powered by OpenAI and Anthropic Claude models:
 
