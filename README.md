@@ -1,57 +1,32 @@
-# Hi, I'm Bala Sai Kunapareddi 👋
+# Hi, I'm Bala 👋
 
-**Software Engineer — Backend Systems · AI Agents & Automation**
-📍 Minnesota, USA
+**Lead AI/ML Engineer · Agentic AI · Python · MCP · RAG · Cloud-Native Systems**
 
-I build backend systems with **Java, Spring Boot, Kafka and Camunda**, and I build **AI agents** that automate real work — from single-purpose agents to multi-agent teams and agent workflows.
+I design and build AI systems that move beyond prototypes — focusing on reliable tool execution, clear agent boundaries, retrieval quality, and maintainable engineering practices. My background is backend engineering: Java, Spring Boot, Kafka, and Camunda workflow systems.
 
----
+### What I work on
 
-## 🤖 AI Agents & Automation
+- **Agentic systems:** orchestration, structured handoffs, tool-use contracts, memory, and evaluation
+- **MCP & interoperability:** typed tool interfaces, secure execution boundaries, and reusable integration patterns
+- **AI engineering:** RAG, hybrid retrieval, reranking, testing, observability, and performance
+- **Platforms:** Python, Java, Spring Boot, Kafka, Camunda, AWS, containerized services, and distributed systems
 
-### [agent-eval-lite](https://github.com/kbsai777/agent-eval-lite) — latest release
-Deterministic evals for AI agents with **no LLM in the test loop**: a scripted model drives the agent through written scenarios while the runner asserts on tool calls, arguments, and responses. Zero dependencies, no API key, one command to run. **v0.1.0 is out now.**
+### Open-source projects
 
-### [agno-agents-demo](https://github.com/kbsai777/agno-agents-demo)
-A level-by-level build-up of agent patterns with the [Agno](https://www.agno.com) framework — Python, powered by OpenAI and Anthropic Claude models:
+| Project | What you'll find |
+| --- | --- |
+| [Agentic Reliability Patterns](https://github.com/kbsai777/agentic-reliability-patterns) | Executable agent handoffs, approvals, tool allowlists, and idempotency examples |
+| [Agent Skills Engineering Kit](https://github.com/kbsai777/agent-skills-engineering-kit) | Installable skills for architecture reviews, MCP design, RAG evaluation, and security |
+| [MCP Practical Toolkit](https://github.com/kbsai777/mcp-practical-toolkit) | Python MCP v2 server with tools, resources, prompts, and tested business logic |
+| [agent-eval-lite](https://github.com/kbsai777/agent-eval-lite) | Deterministic evals for AI agents — no LLM in the test loop, no API key, one command to run |
+| [agno-agents-demo](https://github.com/kbsai777/agno-agents-demo) | Agno framework, level by level: tool-using agents, knowledge bases, reasoning, teams, and workflows |
 
-| Level | What it demonstrates |
-|---|---|
-| **Level 1** | A Claude agent with tools — live stock data via YFinance |
-| **Level 2** | Agent with a knowledge base — LanceDB vector search over documentation, SQLite session storage, chat history |
-| **Level 3** | Reasoning agent with persistent user memory and finance tools |
-| **Level 4** | Multi-agent team collaborating on a task |
-| **Level 5** | Agent workflows — including a caching workflow that reuses prior results |
+### How I approach AI engineering
 
-**Standalone examples:** a research agent (Exa + DuckDuckGo search) and a movie recommendation agent.
+> Models can interpret intent. Application code must enforce permissions, transactions, and guarantees.
 
-**Stack:** Agno · OpenAI · Anthropic Claude · LanceDB · YFinance · Exa · DuckDuckGo Search · SQLAlchemy · Pydantic
+I like building small reference implementations that explain not just *how* something works, but *why* a particular boundary or failure mode matters.
 
-**More AI work:** `ai-jobs-app` and `job-match-ai` — AI-powered job-matching applications in TypeScript (private repos).
+**Explore the repositories above**, open an issue with a useful example you'd like to see, or connect here on GitHub.
 
-🔭 **Currently building:** an agent that automates repetitive tasks at work.
-
----
-
-## 🛠️ Featured Backend Projects
-
-- **[KafkaProject](https://github.com/kbsai777/KafkaProject)** — Spring Boot + Apache Kafka messaging
-- **[camunda-rest-sample](https://github.com/kbsai777/camunda-rest-sample)** — Camunda BPM workflow for an insurance application process, exposed over REST
-- **[camunda-example](https://github.com/kbsai777/camunda-example)** — Camunda process automation examples
-- **kafkaStreamsProject** *(private)* — Kafka Streams processing POC
-
----
-
-## Tech I Work With
-
-**Languages:** Java · Python · TypeScript
-**Backend & Messaging:** Spring Boot · Apache Kafka · Kafka Streams · Camunda BPM · REST APIs
-**AI & Agents:** Agno · OpenAI · Anthropic Claude · LanceDB · Exa · YFinance
-**Data & Tools:** SQL · SQLite · Git
-
----
-
-## 📊 GitHub Stats
-
-![Bala's GitHub stats](https://github-readme-stats.vercel.app/api?username=kbsai777&show_icons=true&theme=radical)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kbsai777&layout=compact&theme=radical)
+<sub>All public examples are independent, use synthetic data, and are not representations of any employer's internal systems.</sub>
